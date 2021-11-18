@@ -271,9 +271,8 @@
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
         </dependency>
-    </dependencies>
+</dependencies>
 
-<!-- JFrog Artifactory Distribution Management --->
 <distributionManagement>
     <repository>
         <id>central</id>
