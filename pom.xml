@@ -272,7 +272,8 @@
             <artifactId>json-simple</artifactId>
         </dependency>
     </dependencies>
-    
+
+<!-- JFrog Artifactory Distribution Management --->
 <distributionManagement>
     <repository>
         <id>central</id>
