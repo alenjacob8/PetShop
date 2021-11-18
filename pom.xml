@@ -272,7 +272,15 @@
             <artifactId>json-simple</artifactId>
         </dependency>
     </dependencies>
-
+    
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-platform-1-releases</name>
+        <url>https://alenjacob8.jfrog.io/artifactory/demo1-libs-release</url>
+    </repository>
+</distributionManagement>
+    
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
